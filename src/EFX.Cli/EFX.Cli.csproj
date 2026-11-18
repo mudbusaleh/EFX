@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>efx</AssemblyName><RootNamespace>EFX.Cli</RootNamespace></PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\EFX.Core\EFX.Core.csproj"/><ProjectReference Include="..\EFX.Sqlite\EFX.Sqlite.csproj"/></ItemGroup>
+</Project>

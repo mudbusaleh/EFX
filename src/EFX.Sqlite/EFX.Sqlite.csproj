@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><AssemblyName>EFX.Sqlite</AssemblyName><RootNamespace>EFX.Sqlite</RootNamespace></PropertyGroup>
+  <ItemGroup><ProjectReference Include="..\EFX.Core\EFX.Core.csproj"/><PackageReference Include="Microsoft.Data.Sqlite" Version="11.0.0"/></ItemGroup>
+</Project>
