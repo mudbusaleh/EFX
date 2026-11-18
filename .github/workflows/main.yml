@@ -1,3 +1,4 @@
+
 name: Build and Test
 
 on:
@@ -6,8 +7,12 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   build:
+    name: Build and Test EFX
     runs-on: ubuntu-latest
 
     steps:
@@ -20,10 +25,10 @@ jobs:
           dotnet-version: '11.0.x'
 
       - name: Restore
-        run: dotnet restore
+        run: dotnet restore EFX.sln
 
       - name: Build
-        run: dotnet build --no-restore
+        run: dotnet build EFX.sln --no-restore --configuration Release
 
       - name: Test
-        run: dotnet test --no-build
+        run: dotnet test EFX.sln --no-build --configuration Release
