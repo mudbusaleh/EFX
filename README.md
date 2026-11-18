@@ -61,3 +61,16 @@ efx db apply
 ## License
 
 MIT
+## Project Origin & Ownership
+
+EFX was originally conceived and initiated by **Mahmoud Saleh**, the original creator and founder of the project.
+
+EFX is an independent open-source project that welcomes contributions from developers around the world.
+
+The project aims to grow through community collaboration while preserving recognition of its original creator and all contributors.
+
+**Original Creator & Founder:** Mahmoud Saleh
+
+**GitHub:** [@mudbusaleh-droid](https://github.com/mudbusaleh-droid)
+
+**Contact:** mudbusaleh@gmail.com
