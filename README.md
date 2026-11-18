@@ -1,3 +1,4 @@
+[English](README.md) | [العربية](README.ar.md)
 # EFX
 
 **EFX is an independent database development framework for .NET, created with the ambition of becoming a more powerful alternative to Entity Framework Core.**
