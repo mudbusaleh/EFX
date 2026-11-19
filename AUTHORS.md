@@ -7,7 +7,7 @@ This file recognizes the people who have contributed to the creation and develop
 **Mahmoud Saleh**
 
 - Role: Original Creator & Founder
-- GitHub: [@mudbusaleh-droid](https://github.com/mudbusaleh-droid)
+- GitHub: [@mudbusaleh](https://github.com/mudbusaleh)
 - Project: EFX — Independent Database Development Framework for .NET
 
 Mahmoud Saleh originally conceived and initiated EFX, established its initial vision, and started the development of the project.
