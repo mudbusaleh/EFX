@@ -33,6 +33,6 @@ You can open an issue to report bugs, suggest features, or discuss improvements.
 
 EFX was originally created by **Mahmoud Saleh**.
 
-GitHub: https://github.com/mudbusaleh-droid
+GitHub: https://github.com/mudbusaleh
 
 Thank you for helping EFX grow!
