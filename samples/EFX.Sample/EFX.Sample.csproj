@@ -1,4 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
-  <ItemGroup><ProjectReference Include="..\..\src\EFX.Core\EFX.Core.csproj"/><ProjectReference Include="..\..\src\EFX.Sqlite\EFX.Sqlite.csproj"/></ItemGroup>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\EFX.Core\EFX.Core.csproj" />
+    <ProjectReference Include="..\..\src\EFX.Sqlite\EFX.Sqlite.csproj" />
+  </ItemGroup>
 </Project>

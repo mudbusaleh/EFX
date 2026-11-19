@@ -1,33 +1,32 @@
 # Roadmap
 
-## Phase 1 - Foundation
+## Phase 1 - Safe foundation
 
 - [x] Repository structure
-- [x] Core project
-- [x] SQLite provider project
-- [x] CLI project
-- [x] Sample project
-- [x] Test project
-- [ ] Complete model discovery
-- [ ] Complete SQLite schema inspection
-- [ ] Complete schema comparison
-- [ ] SQL plan generation
-- [ ] Safe apply workflow
+- [x] Core project and SQLite provider
+- [x] Model discovery that excludes navigation properties
+- [x] SQLite schema inspection
+- [x] Table and column comparison
+- [x] Typed change plans and SQL preview
+- [x] Explicit approval before any apply
+- [x] SQLite backup and transactional DDL
+- [x] Zero-Command Schema Sync sample
+- [x] Automated tests for discovery and safe synchronization
 
 ## Phase 2 - Schema workflow
 
 - [ ] Schema version history
-- [ ] Rename detection
-- [ ] Index comparison
-- [ ] Foreign-key comparison
-- [ ] Nullable/type change analysis
-- [ ] Better destructive-change warnings
+- [ ] Explicit rename mapping and reviewed rename plans
+- [ ] Index and foreign-key comparison
+- [ ] Composite keys and richer constraints
+- [ ] Data backfill/default strategies
+- [ ] Migration artifact generation and rollback design
 
 ## Phase 3 - Data API
 
 - [ ] Query API
 - [ ] Insert/update/delete API
-- [ ] Relationship handling
+- [ ] Relationship loading and persistence
 - [ ] Seed data
 
 ## Phase 4 - Providers
@@ -38,7 +37,8 @@
 
 ## Phase 5 - Production workflow
 
-- [ ] Script artifacts
+- [ ] Deployment approval integrations
+- [ ] Backup retention and restore verification tooling
 - [ ] CI/CD integration
-- [ ] Deployment workflow
-- [ ] Integration test suite
+- [ ] Observability and audit log
+- [ ] Production-grade integration test matrix

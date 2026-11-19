@@ -1,27 +1,22 @@
 # Changelog
 
-All notable changes to EFX will be documented in this file.
+## [v0.2.0] - 2026-11-19
 
-This project follows a version-based development history.
+### Added
+- Zero-Command Schema Sync API with a mandatory explicit approval callback.
+- SQLite schema inspection with table and column metadata.
+- Real table/column comparison, SQLite type-affinity checks, nullability and primary-key checks.
+- Readable schema plans and provider-generated SQL previews.
+- SQLite file backup before changes, full-schema snapshot checks before and inside the apply transaction, and transactional DDL.
+- Runnable sample and CLI demo.
+- Tests for navigation-property exclusion, approval refusal, backup creation, and repeat sync.
+
+### Safety
+- Navigation properties are excluded from scalar column discovery.
+- Automatic apply is restricted to create-table and nullable non-key add-column operations.
+- Destructive or ambiguous changes, unsupported/duplicate mappings, and extra database columns block the entire plan for manual review.
+- The SQLite provider regenerates SQL from typed metadata rather than executing plan SQL text.
 
 ## [v0.1.0] - 2026-11-18
 
-### Initial Public Release
-
-- Established the EFX project as an independent database development framework for .NET.
-- Introduced the initial project architecture.
-- Established the model-first development vision.
-- Started the SQLite provider as the first database provider.
-- Introduced the initial schema inspection and comparison workflow.
-- Established the initial change planning and SQL generation direction.
-- Published the first public release.
-
-### Project Founder
-
-**Mahmoud Saleh** — Original Creator & Founder.
-
-GitHub: https://github.com/mudbusaleh-droid
-
-### Development Status
-
-EFX is in its early development stage. Features listed in the project roadmap are not necessarily implemented yet.
+- Initial project structure and model-first direction.

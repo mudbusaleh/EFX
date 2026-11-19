@@ -11,14 +11,17 @@ We welcome developers, ideas, bug reports, discussions, and code contributions.
 1. Fork the EFX repository.
 2. Create a new branch for your changes.
 3. Make your changes and add tests when appropriate.
-4. Run the existing tests.
-5. Submit a Pull Request explaining your changes.
+4. Run `dotnet restore EFX.sln`, `dotnet build EFX.sln --configuration Release`, and `dotnet test EFX.sln --configuration Release`.
+5. For schema/provider changes, add tests that prove both the intended operation and the no-data-loss behavior when approval is denied or a plan is unsafe.
+6. Submit a Pull Request explaining your changes.
 
 ## Contribution Guidelines
 
 - Keep code clean and maintainable.
 - Follow the existing project architecture.
 - Include tests for new functionality when appropriate.
+- Never introduce silent schema changes or automatic destructive operations.
+- Keep provider execution restricted to validated typed plans; do not execute arbitrary SQL from callers.
 - Avoid introducing breaking changes without discussion.
 - Keep discussions respectful and constructive.
 
