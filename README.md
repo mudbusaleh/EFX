@@ -82,6 +82,6 @@ EFX is an early open-source project. The current implementation is a foundation 
 
 ## Origin and license
 
-Original Creator & Founder: **Mahmoud Saleh** — [@mudbusaleh-droid](https://github.com/mudbusaleh-droid)
+Original Creator & Founder: **Mahmoud Saleh** — [@mudbusaleh-droid](https://github.com/mudbusaleh)
 
 MIT License.
