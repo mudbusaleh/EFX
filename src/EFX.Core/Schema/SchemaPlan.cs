@@ -1,3 +1,4 @@
+
 using System.Text;
 
 namespace EFX.Core.Schema;
@@ -11,7 +12,8 @@ public sealed class SchemaPlan
         ExpectedSchema = expectedSchema ?? throw new ArgumentNullException(nameof(expectedSchema));
     }
 
-    internal DatabaseSchema ExpectedSchema { get; }
+    // Public so that database providers in separate assemblies can validate stale plans.
+    public DatabaseSchema ExpectedSchema { get; }
 
     public IReadOnlyList<SchemaChange> Changes => _changes.AsReadOnly();
     public IReadOnlyList<SchemaChange> ExecutableChanges => _changes.Where(change => change.IsExecutable).ToArray();
