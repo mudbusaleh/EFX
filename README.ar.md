@@ -82,6 +82,6 @@ dotnet run --project src/EFX.Cli -- demo efx-demo.db
 
 ## المؤسس والترخيص
 
-المؤسس وصاحب الفكرة: **Mahmoud Saleh** — [@mudbusaleh-droid](https://github.com/mudbusaleh-droid)
+المؤسس وصاحب الفكرة: **Mahmoud Saleh** — [@mudbusaleh-droid](https://github.com/mudbusaleh)
 
 MIT License.
