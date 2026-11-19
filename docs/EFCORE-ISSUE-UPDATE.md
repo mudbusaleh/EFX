@@ -3,7 +3,7 @@
 I've started putting the idea into a real open-source project instead of keeping it only as a proposal.
 
 Repository:
-https://github.com/mudbusaleh-droid/EFX
+https://github.com/mudbusaleh/EFX
 
 The project is intentionally independent from EF Core. I'm not trying to turn this into another EF Core command or a wrapper around EF Core.
 
